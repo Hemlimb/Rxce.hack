@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2023, 1, 15)
+#expirydate = datetime.date(2025, 12, 30)
 today=date.today()
 def hero():
 
@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter ",newperiod," Parity Price :15203	")
         current=input()
         current=int(current)
         chalo()
